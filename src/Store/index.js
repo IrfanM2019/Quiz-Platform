@@ -1,19 +1,20 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+// import {  getDefaultMiddleware } from "@reduxjs/toolkit";
 // import UserReducer from "./Slices/UserReducer";
 // import TestInfo from "./Slices/TestInfo";
 import rootReducer from "./rootReducer";
-import thunk from "redux-thunk";
-import logger from "redux-logger";
+// import thunk from "redux-thunk";
+// import logger from "redux-logger";
 
-const middleware = [thunk];
+// const middleware = [thunk];
 
 if (process.env.NODE_ENV === "development") {
-  middleware.push(logger);
+  // middleware.push(logger);
 }
 
 const store = configureStore({
   reducer: rootReducer ,
-  middleware: (getDefaultMiddleware) => middleware,
+  // middleware: (getDefaultMiddleware) => middleware,
 });
 
 export default store;
