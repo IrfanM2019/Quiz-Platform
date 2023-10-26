@@ -31,7 +31,7 @@ export default function Update() {
   const users = useSelector((state) => state.users);
 
   const { id } = useParams();
-  const existingUser = users.find((user) => user.id == id);
+  const existingUser = users.find((user) => user.id === id);
   const { title, question, answer, options } = existingUser;
   let opt = options.map((text) => ({ text }));
 
@@ -100,7 +100,7 @@ export default function Update() {
       return;
     }
 
-    if (ucorrectAnswer == "") {
+    if (ucorrectAnswer === "") {
       alert("Please Chose Correct Answer options.");
       return;
     }

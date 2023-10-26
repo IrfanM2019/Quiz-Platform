@@ -40,7 +40,7 @@ const QuizCards = () => {
     setSelectedAnswers(newSelectedAnswers);
     setIsOptionSelected(true);
 
-    if (clickedans == rightans) {
+    if (clickedans === rightans) {
       setansresult(ansresult + 1);
     }
   };
@@ -140,7 +140,7 @@ const QuizCards = () => {
               onClick={handleNextQuestion}
               disabled={!isOptionSelected}
             >
-              {activeQuestion + 1 == questions.length
+              {activeQuestion + 1 === questions.length
                 ? "Submit"
                 : "Next Question"}
             </Button>

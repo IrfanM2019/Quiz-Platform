@@ -3,7 +3,7 @@ import Header from "./layout/Header";
 import { useSelector, useDispatch } from "react-redux";
 import { Button } from "@mui/material";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -111,7 +111,6 @@ const PlayQuiz = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            justifyContent: "center",
             height: "100vh",
           }}
         >
