@@ -1,0 +1,30 @@
+.container{
+    background-color: rgb(227, 230, 100);
+    min-height: 100vh;
+    padding: 2rem;
+    
+}
+.crb{
+    float: right;
+}
+/* Below is the code for CreateQUiz.js page  */
+.formcol{
+    margin: 0;
+    padding:2rem ;
+    background-color: rgb(224, 156, 213);
+    min-height: 90vh;
+      /* height: 100vh; */
+}
+
+.gridin{
+    /* padding:2rem ; */
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.gridout{
+    padding:1.8rem ;
+    
+    
+}
+
+

@@ -1,0 +1,45 @@
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation-menu li {
+    margin: 0px 20px;
+  }
+  .navigation-menu li a {
+    text-decoration: none;
+    color: white;
+  }
+/* Below is for hover effect of home, quiz, play quiz in navbar */
+  .navigation-menu li a:hover{
+  color: red;
+  transition: 0.3s ease-in;
+  }
+
+  .active {
+    color: goldenrod !important;
+    font-weight: bold !important;
+  }
+  /* mobile view */
+  .mobile-navigation {
+    list-style: none;
+  }
+  .mobile-navigation li {
+    margin-top: 20px;
+  }
+  .mobile-navigation li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+  }
+
+  /* Below is for hover effectfor mobile size-> of home, quiz, play quiz in navbar */
+  .mobile-navigation li a:hover{
+    color: red;
+    transition: 0.3s ease-in;
+    }
+
+ 
+  
+  
